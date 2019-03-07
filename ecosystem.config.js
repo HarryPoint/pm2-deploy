@@ -16,7 +16,7 @@ module.exports = {
     production: {
       user: 'root',
       host: '119.27.167.20',
-      ref: 'origin-github/master',
+      ref: 'origin/master',
       repo: 'git@github.com:HarryPoint/pm2-deploy.git',
       path: '/var/www/node-server/pm2-deploy',
       'post-deploy':
