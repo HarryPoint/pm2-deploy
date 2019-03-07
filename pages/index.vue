@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        pm2-deploy
+        pm2-deploy-sdfsd
       </h1>
       <h2 class="subtitle">
         My stupendous Nuxt.js project
