@@ -30,7 +30,7 @@ export default {
     Logo
   },
   mounted() {
-    console.log('success')
+    console.log('success234')
   }
 }
 </script>
