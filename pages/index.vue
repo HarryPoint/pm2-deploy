@@ -30,7 +30,7 @@ export default {
     Logo
   },
   mounted() {
-    console.log('success234')
+    console.log('修改第二遍')
   }
 }
 </script>
