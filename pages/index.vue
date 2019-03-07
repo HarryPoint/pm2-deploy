@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        我修改了
+        秀噶
       </h1>
       <h2 class="subtitle">
         My stupendous Nuxt.js project
