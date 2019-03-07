@@ -4,22 +4,22 @@
     "../server/index.spa.html",
     "../server/index.ssr.html",
     "1c590509d7322b6e10db.js",
-    "4890298aa9a0763c14cd.js",
+    "4bf5c50c968676d0156b.js",
     "4c3df654ced0dbde873a.js",
     "5920934a14dd23cbbdf2.js",
+    "7c00d017504b92f5d0d4.js",
     "LICENSES",
-    "d98034397dba64d7a9c5.js",
     "fonts/2fad952.woff",
     "fonts/6f0a763.ttf"
   ],
   "initial": [
-    "4890298aa9a0763c14cd.js",
+    "4bf5c50c968676d0156b.js",
     "1c590509d7322b6e10db.js",
     "4c3df654ced0dbde873a.js",
     "5920934a14dd23cbbdf2.js"
   ],
   "async": [
-    "d98034397dba64d7a9c5.js"
+    "7c00d017504b92f5d0d4.js"
   ],
   "modules": {
     "10855109": [
@@ -1019,32 +1019,32 @@
       5
     ],
     "7b5ab5d6": [
-      7
+      6
     ],
     "25cc8713": [
-      7
+      6
     ],
     "0d7fd2de": [
-      7
+      6
     ],
     "10c0ee6a": [
-      7
+      6
     ],
     "8a4d2fca": [
-      7
+      6
     ],
     "6af31c88": [
-      7
+      6
     ],
     "523f885e": [
-      7
+      6
     ]
   },
   "assetsMapping": {
     "1c590509d7322b6e10db.js": "0859c165",
-    "4890298aa9a0763c14cd.js": "6fca0322",
+    "4bf5c50c968676d0156b.js": "6fca0322",
     "4c3df654ced0dbde873a.js": "7ea1d828",
     "5920934a14dd23cbbdf2.js": "1a3ae26b",
-    "d98034397dba64d7a9c5.js": "2a130dde"
+    "7c00d017504b92f5d0d4.js": "2a130dde"
   }
 }
