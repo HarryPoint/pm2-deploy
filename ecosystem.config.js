@@ -2,6 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'pm2-deploy',
+      instances: 'max',
       script: 'server/index.js',
       env: {
         NODE_ENV: 'development'
