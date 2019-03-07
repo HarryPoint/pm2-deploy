@@ -1,0 +1,32 @@
+{
+    // 强制单引号
+    "prettier.singleQuote": true,
+    // 尽可能控制尾随逗号的打印
+    "prettier.trailingComma": "all",
+    // 开启 eslint 支持
+    "prettier.eslintIntegration": true,
+    // 保存时自动fix
+    "eslint.autoFixOnSave": true,
+    // 添加 vue 支持
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "language": "vue",
+        "autoFix": true
+      }
+    ],
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.scriptInitialIndent": false,
+    "vetur.format.styleInitialIndent": false,
+    "vetur.format.defaultFormatterOptions": {
+  
+    },
+    "vetur.validation.template": false,
+  }
+  
