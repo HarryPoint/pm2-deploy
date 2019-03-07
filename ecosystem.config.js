@@ -20,7 +20,7 @@ module.exports = {
       repo: 'git@github.com:HarryPoint/pm2-deploy.git',
       path: '/var/www/node-server/pm2-deploy',
       'post-deploy':
-        'yarn install && pm2 reload ecosystem.config.js --env production'
+        'yarn install && yarn build && pm2 reload ecosystem.config.js --env production'
     }
   }
 }
