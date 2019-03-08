@@ -29,8 +29,8 @@ module.exports = {
   deploy: {
     production: {
       ...deploy,
-      user: 'root',
-      host: '119.27.167.20',
+      user: 'staff',
+      host: '132.232.71.55',
       'post-deploy':
         'yarn install && pm2 reload ecosystem.config.js --env production'
     },
