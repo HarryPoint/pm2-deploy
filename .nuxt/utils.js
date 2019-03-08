@@ -128,14 +128,14 @@ export async function setContext(app, context) {
   if (!app.context) {
     app.context = {
       isStatic: process.static,
-      isDev: false,
+      isDev: true,
       isHMR: false,
       app,
 
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {}
+      env: {"isTest":true}
     }
     // Only set once
     if (context.req) app.context.req = context.req
@@ -215,6 +215,9 @@ export function middlewareSeries(promises, appContext) {
 export function promisify(fn, context) {
   let promise
   if (fn.length === 2) {
+      console.warn('Callback-based asyncData, fetch or middleware calls are deprecated. ' +
+        'Please switch to promises or async/await syntax')
+
     // fn(context, callback)
     promise = new Promise((resolve) => {
       fn(context, function (err, data) {

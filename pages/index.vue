@@ -6,7 +6,7 @@
         ❤️🚗是淡粉色服
       </h1>
       <h2 class="subtitle">
-        我修改了是可敬可嘉 
+        isTest: {{ isTest }} 
       </h2>
       <div class="links">
         <a
@@ -28,6 +28,11 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  data() {
+    return {
+      isTest: process.env.isTest
+    }
   },
   mounted() {
     console.log('使得分身乏术是淡粉色服')
