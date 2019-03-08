@@ -36,8 +36,8 @@ module.exports = {
     },
     test: {
       ...deploy,
-      user: 'staff',
-      host: '132.232.71.55',
+      user: 'root',
+      host: '119.27.167.20',
       'post-deploy': 'yarn install && pm2 reload ecosystem.config.js --env test'
     }
   }
