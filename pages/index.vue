@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        打车🚖234234
+        打车🚖234234sdfsdfs
       </h1>
       <h2 class="subtitle">
         My stupendous Nuxt.js project
