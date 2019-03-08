@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        ❤️🚗
+        ❤️🚗是淡粉色服
       </h1>
       <h2 class="subtitle">
         My stupendous Nuxt.js project
@@ -30,7 +30,7 @@ export default {
     Logo
   },
   mounted() {
-    console.log('修改第额外玩儿遍')
+    console.log('使得分身乏术是淡粉色服')
   }
 }
 </script>
