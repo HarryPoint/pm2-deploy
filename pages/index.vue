@@ -6,7 +6,7 @@
         ❤️🚗是淡粉色服
       </h1>
       <h2 class="subtitle">
-        My stupendous Nuxt.js project
+        我修改了是可敬可嘉 
       </h2>
       <div class="links">
         <a
