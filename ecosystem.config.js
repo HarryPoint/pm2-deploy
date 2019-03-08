@@ -1,5 +1,5 @@
 let HOST = '0.0.0.0'
-let PORT = 8000
+let PORT = 7000
 let deploy = {
   ref: 'origin/master',
   repo: 'git@git.vm.snqu.com:snto-f2e/pm2-deploy.git',
