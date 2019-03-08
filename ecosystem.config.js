@@ -21,7 +21,7 @@ module.exports = {
       repo: 'git@git.vm.snqu.com:snto-f2e/pm2-deploy.git',
       path: '/var/www/node-server/pm2-deploy',
       'post-deploy':
-        'yarn install && pm2 reload ecosystem.config.js --env production'
+        'yarn install && yarn build && pm2 reload ecosystem.config.js --env production'
     }
   }
 }
